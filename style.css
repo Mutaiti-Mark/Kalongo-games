@@ -1,0 +1,217 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 30px;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar{
+    background-color: #1F2937;
+    color: #fff;
+    height: 100px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .logo {
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bold;
+    align-self: center;
+}
+
+.container .links{
+    align-self: center;
+}
+
+.container .links ul {
+    display: flex;
+    gap: 40px;
+
+}
+
+.navbar a:hover{
+    color: rgb(140, 200, 240);
+}
+
+.header {
+    background-color: #1F2937;
+    color: #fff;
+    height: 400PX;
+}
+
+.header h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-bottom: 20px;
+}
+
+.header p{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 10px;
+    padding-right: 30px;
+}
+
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.header img {
+    width: 600px;
+    height: 400px;
+}
+
+.header button{
+    background-color: rgb(84, 146, 228);
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition-duration: 0.1s;
+    box-shadow: none;
+    margin: 2px 0;
+}
+
+.header button:hover{
+    border: 2px solid rgb(84, 146, 228);
+    background-color: #1F2937;
+}
+
+.games {
+    height: 400px;
+    background-color: #F9FAF8;
+    /* border: 2px solid red; */
+}
+
+.games .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    height: 300px;
+    /* border: 2px solid red; */
+}
+
+
+.games .container .box{
+    flex: 1;
+    height: 100%;
+    /* border: 2px solid navy; */
+}
+
+.games h1{
+        max-width: 1500px;
+        margin: 20px auto 0px auto;
+        padding: 0 30px;
+        text-align: center;
+        font-size: 48px;
+        font-weight: bolder;
+        /* border: 2px solid red; */
+}
+
+.testimonial{
+    background-color: #E5E7EB;
+    font-size: 30px;
+    color: #1F2937;
+    font-weight: light;
+    font-style: italic;
+    padding: 30px;
+    height: 400px;
+}
+
+.testimonial .container{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container #testi{
+    padding: 30px;
+}
+
+.container #name{
+    padding: 30px;
+    font-style: normal;
+    font-weight: bold;
+    align-self: self-end;
+}
+
+.cta {
+    height: 200px;
+    background-color: #F9FAF8;
+}
+
+.cta .container{
+    display: flex;
+    height: auto;
+    margin-top: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+    background-color: rgb(84, 146, 228);
+    color: #fff;
+}
+
+.cta button{
+    background-color: rgb(84, 146, 228);
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition-duration: 0.1s;
+    box-shadow: none;
+    margin: 2px 0;
+}
+
+.cta button:hover{
+    border: 2px solid rgb(84, 146, 228);
+    background-color: #F9FAF8;
+    color: #1F2937;
+}
+
+.footer {
+    height: 50px;
+    background-color: #1F2937;
+}
+
+.footer .container{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
